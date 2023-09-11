@@ -7,7 +7,7 @@ function showData(dados) {
     document.querySelector('.result h2').innerHTML = "Tempo em: " +dados.name;
     document.querySelector('.result p').innerHTML = Math.floor(dados.main.temp) + '°C';
     document.querySelector('.info p').innerHTML = dados.weather[0].description;
-    document.querySelector('#umi').innerHTML = "Umidade:" +dados.main.humidity + '%';
+    document.querySelector('#umi').innerHTML = "Umidade: " +dados.main.humidity + '%';
 }
 
 function clickBtn() {
